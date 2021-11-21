@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Shippori+Antique&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+   margin:10px;
+   margin-left:20px;
+   margin-right: 20px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.headleft{
+    border: 2px solid black;
+    font-family: Tahoma;
+    width: 250px;
+    text-align: center;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+
+.headmiddle{
+    font-family: 'Chomsky Regular';
+    font-size: 40px;
+}
+.headright{
+    text-align:center;
+    font-family: Tahoma;
+    width: 250px;
+    margin-top: 15px;
+    margin-bottom:15px;
+     
+}
+.heading1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+hr{
+    border-top: 1px solid rgba(125, 124, 124,0.6);
+    border-bottom: 0;
+
+
+}
+.hr1{
+    width: 600px;
+    border-top: 3px solid grey;
+    border-bottom: 0;
+    margin: auto;
+}
+#container{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.left_container{
+ width: 60%;
+ flex-direction: column;
+
+}
+
+
+.left_sub_container{
+    display: flex;
+    margin-top: 20px;
+}
+.left{
+    width: 30%;
+    text-align: center;
+    border-right: 1.5px solid grey;
+}
+
+
+.left>hr{
+    margin: auto;
+    width: 70%;
+
+}
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+    border-right: 1.5px solid grey;
+
+}
+
+.right_h>h1{
+    text-align: center;
+
+}
+.right_content{
+    display: flex;
+    margin-right: 5px;;
+}
+.right_content_left, .right_content_center, .right_content_right{
+    width: 200px;
+}
+.right_content_left h3{
+    margin-left:5px;
+}
+.right_middle{
+    text-align: center;
+}
+
+ .right_container{
+    width: 40%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+   
+}
+
+.hd>h1{
+    text-align: center;
+    margin:20px;
+    margin-bottom:5px;
+    margin-top:5px;
+    font-family: 'Pirata One', cursive;
+    font-size:40px;
+}
+
+.hd>h3{
+    text-align: center;
+    margin:20px;
+    margin-bottom:5px;
+    margin-top:5px;
+    font-family: 'Pirata One', cursive;font-size:30px
+}
+
+.right_container hr{
+    width: 60%; margin-left: 120px;border-top:2px solid rgba(128, 128, 128,0.7);
+    
+    margin-bottom:10px;
+}
+.cntent_r{
+    display: flex;
+    margin-left: 10px;
+    flex-direction: row;
+    
+    
+}
+.sub_cntent, .sub_cntent2{
+    width: 300px;
+    height:60%;
+
+}
+
+
+@font-face {
+    font-family: 'Chomsky Regular';
+    font-style: normal;
+    font-weight: normal;
+    src:  url('./chomsky-cufonfonts-webfont/Chomsky.woff');
+    }
+
+
+ p::first-letter {
+    
+    text-transform: uppercase;
+}
+
+h1::first-letter {
+    
+    text-transform: uppercase;
+}
+
+h2::first-letter {
+    
+    text-transform: uppercase;
+}
+h3::first-letter {
+    
+    text-transform: uppercase;
+}
+
+h1{
+    margin:10px;
+    font-family: 'Pirata One', cursive;
+}
+
+p{
+    margin:5px;
+}
+
+    
